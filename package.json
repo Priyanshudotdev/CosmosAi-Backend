@@ -1,0 +1,22 @@
+{
+  "name": "NEXUS-BACKEND",
+  "version": "1.0.0",
+  "description": "code generation backend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "author": "PRIYANSHU",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@huggingface/inference": "^2.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.73.1",
+    "socket.io": "^4.7.5"
+  }
+}
